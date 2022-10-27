@@ -4,7 +4,7 @@
 
 
 
-> In this project, i was able to set up my math magicians repository through the tools and best practices i learned about in previous steps.
+> In this project, i was able to set up my math magicians repository through the tools and best practices i learned about in previous steps such as Using props and state, event handler, setState, react class extention
 
 
 ## Built With
@@ -12,7 +12,8 @@
 - react
 - CSS
 - npm
-- 
+- big.js
+- logic library (calculate.js and operate.js)
 
 
 
