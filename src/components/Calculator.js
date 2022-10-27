@@ -5,7 +5,7 @@ import calculate from '../logic/calculate';
 export default class Calculator extends React.PureComponent {
   constructor(props) {
     super(props);
-    this.state = { total: '', next: '', operation: '' };
+    this.state = { total: '0', next: '', operation: '' };
     this.handleClick = this.handleClick.bind(this);
   }
 
@@ -31,7 +31,7 @@ export default class Calculator extends React.PureComponent {
         <button type="button" className="button" onClick={this.handleClick}>7</button>
         <button type="button" className="button" onClick={this.handleClick}>8</button>
         <button type="button" className="button" onClick={this.handleClick}>9</button>
-        <button type="button" className="symbol active" onClick={this.handleClick}>&times;</button>
+        <button type="button" className="symbol active" onClick={this.handleClick}>x</button>
         <button type="button" className="button" onClick={this.handleClick}>4</button>
         <button type="button" className="button" onClick={this.handleClick}>5</button>
         <button type="button" className="button" onClick={this.handleClick}>6</button>
