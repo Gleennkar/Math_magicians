@@ -15,6 +15,7 @@
 - npm
 - big.js
 - logic library (calculate.js and operate.js)
+- Hooks
 
 
 
