@@ -1,5 +1,5 @@
 *,
-*::before,
+/* *::before, */
 *::after {
   box-sizing: border-box;
   font-family: Gotham Rounded, sans-serif;
@@ -23,7 +23,7 @@ body {
   grid-template-columns: repeat(4, 114px);
   grid-template-rows: minmax(73px, auto) repeat(5, 56px);
   margin-bottom: 25px;
-  margin-top: 25px;
+  margin-top: -25px;
 }
 
 .calculator-grid > button {
@@ -62,4 +62,50 @@ body {
 
 .calculator-grid > .symbol {
   background-color: orange;
+}
+
+.navBar {
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2%;
+}
+
+.navItems {
+  width: 20%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navItem {
+  font-size: 18px;
+
+  /* border: 1px solid #555; */
+
+  /* border-radius: 8px; */
+  padding: 12px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.navItem:hover {
+  background-color: rgba(217, 0, 255, 0.151);
+}
+
+.navItem a {
+  text-decoration: none;
+}
+
+.homepage {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.quote {
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 400;
+  font-size: medium;
 }

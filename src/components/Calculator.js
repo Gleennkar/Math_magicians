@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './index.css';
-// import React from 'react';
+// import './index.css';
+// import react from 'react';
 import calculate from '../logic/calculate';
 
 const initialState = {

@@ -17,6 +17,6 @@ const App = () => {  //eslint-disable-line
       </Routes>
     </div>
   );
-}
+};
 
 export default App;
