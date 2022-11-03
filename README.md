@@ -6,6 +6,7 @@
 
 > In this project, i was able to set up my math magicians repository through the tools and best practices i learned about in previous steps such as Using props and state, event handler, setState, react class extention
 > Also the use of Hooks (useState) in functions to give my calculate functionality
+> I added two more components to my calculate, that is the Home page, Quote page with each having a navbar, i was able to do this with the use of routers
 
 
 ## Built With
@@ -16,6 +17,7 @@
 - big.js
 - logic library (calculate.js and operate.js)
 - Hooks
+- Routers
 
 
 
