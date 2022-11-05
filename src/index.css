@@ -52,7 +52,7 @@ body {
   align-items: center;
   word-wrap: break-word;
   word-break: break-all;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .output .operand {
