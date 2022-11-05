@@ -23,7 +23,7 @@
 
   ## Live Demo
 
-- Live demo link: [Portfolio] 
+- Live demo link: https://tangerine-pavlova-103c1e.netlify.app/
 
 
 ## Getting Started
